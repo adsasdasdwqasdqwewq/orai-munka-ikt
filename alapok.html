@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="alapok.css" />
+
+    <title>C# Útmutató</title>
+  </head>
+
+  <body>
+    <strong>
+    <header>
+      <h1>Változók, Adattípusok, Feltételes Utasítások, Ciklusok, Függvények, Osztályok és Objektumok</h1>
+
+      <p>
+        Üdvözöljük a C# útmutatónkban! Itt tanulhatsz a változókról, adattípusokról, feltételes utasításokról, ciklusokról, függvényekről, osztályokról és objektumokról
+        C# nyelven. Kezdjünk el!
+      </p>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#variables-data-types">Változók és Adattípusok</a></li>
+
+        <li><a href="#conditional-instructions">Feltételes Utasítások</a></li>
+
+        <li><a href="#cycles">Ciklusok</a></li>
+
+        <li><a href="#functions">Függvények</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="variables-data-types">
+        <h2>Változók és Adattípusok</h2>
+
+        <p>
+          A C# nyelvben a változó egy úgynevezett memóriahely, amelyet adat tárolására használnak. Az adattípus meghatározza, milyen adatokat lehet tárolni a változóban.
+          Itt bemutatunk néhány gyakori adattípust, és hogy hogyan lehet változókat deklarálni és inicializálni.
+        </p>
+
+        <ul>
+          <li>Adattípusok: 
+            <li>int típusú változó: Az egész számokat reprezentálja.</li>
+            <p>Péda az int típusú változóra: int myNumber = 42; Ez a sor egy egész számot rendel a myNumber nevű változóhoz. Az "int" típus 32 bites egész számokat képes tárolni, és az értéke lehet pozitív vagy negatív.</p> 
+            <li>float</li>
+            <p>Példa a float típusú változóra: float myFloat = 3.14f; A float típus lebegőpontos számok tárolására szolgál. A float típus különösen hasznos, amikor szükség van tizedespontos számokra.</p>
+            <li>double</li>
+            <li>char</li>
+            <li>string</li>
+            <li>bool</li>
+        </ul>
+      </section>
+
+      <section id="conditional-instructions">
+        <h2>Feltételes Utasítások</h2>
+
+        <p>
+          A feltételes utasítások lehetővé teszik a program számára, hogy döntéseket hozzon bizonyos feltételek alapján. A leggyakoribb feltételes utasítások a C#
+          nyelvben az if utasítások és a switch utasítások.
+        </p>
+
+        <ul>
+          <li><code>if</code> utasítás: <code>if (x > 0) { Console.WriteLine("x pozitív."); }</code></li>
+
+          <li><code>switch</code> utasítás: <code>switch (x) { case 1: Console.WriteLine("x egy."); break; }</code></li>
+        </ul>
+      </section>
+
+      <section id="cycles">
+        <h2>Ciklusok</h2>
+
+        <p>
+          Ciklusok lehetővé teszik a program számára, hogy többször ismételje meg egy kódblokk végrehajtását. A leggyakoribb ciklusok a C# nyelvben a for ciklusok és a
+          while ciklusok.
+        </p>
+
+        <ul>
+          <li><code>for</code> ciklus: <code>for (int i = 0; i < 10; i++) { Console.WriteLine(i); }</code></li>
+
+          <li><code>while</code> ciklus: <code>int i = 0; while (i < 10) { Console.WriteLine(i); i++; }</code></li>
+        </ul>
+      </section>
+
+      <section id="functions">
+        <h2>Függvények</h2>
+
+        <p>
+          A függvények újrafelhasználható kódblokkok, amelyek egy konkrét feladatot látnak el. A függvények inputokat vehetnek át, és kimeneteket adhatnak vissza. Itt
+          bemutatjuk, hogyan lehet deklarálni és hívni függvényeket C# nyelven.
+        </p>
+
+        <ul>
+          <li>Függvények deklarálása és hívása: <code>int Összeadás(int a, int b) { return a + b; }</code></li>
+        </ul>
+      </section>
+      </section>
+    </main>
+  </strong>
+  </body>
+</html>
