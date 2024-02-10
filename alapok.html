@@ -8,16 +8,16 @@
 
     <link rel="stylesheet" type="text/css" href="alapok.css" />
 
-    <title>C# Útmutató</title>
+    <title>C# Alapok</title>
   </head>
 
   <body>
     <strong>
     <header>
-      <h1>Változók, Adattípusok, Feltételes Utasítások, Ciklusok, Függvények, Osztályok és Objektumok</h1>
+      <h1>C# Alapjai</h1>
 
       <p>
-        Üdvözöljük a C# útmutatónkban! Itt tanulhatsz a változókról, adattípusokról, feltételes utasításokról, ciklusokról, függvényekről, osztályokról és objektumokról
+        Üdvözöljük a C# útmutatónkban! Itt tanulhatsz a C# alapjairól, vagyis a változókról, adattípusokról, feltételes utasításokról, ciklusokról, függvényekről, osztályokról és objektumokról
         C# nyelven. Kezdjünk el!
       </p>
     </header>
@@ -46,13 +46,39 @@
         <ul>
           <li>Adattípusok: 
             <li>int típusú változó: Az egész számokat reprezentálja.</li>
-            <p>Péda az int típusú változóra: int myNumber = 42; Ez a sor egy egész számot rendel a myNumber nevű változóhoz. Az "int" típus 32 bites egész számokat képes tárolni, és az értéke lehet pozitív vagy negatív.</p> 
+            <p>Példa az int típusú változóra: int myNumber = 42; Ez a sor egy egész számot rendel a myNumber nevű változóhoz. Az "int" típus 32 bites egész számokat képes tárolni, és az értéke lehet pozitív vagy negatív.</p> 
+
             <li>float</li>
+            <li>A float típus 32 bites hosszúságú, és lebegőpontos számokat tárol a IEEE 754 szabvány szerint. Az előnye az, hogy kisebb memóriaterületet foglal, mint a double típus</li>
             <p>Példa a float típusú változóra: float myFloat = 3.14f; A float típus lebegőpontos számok tárolására szolgál. A float típus különösen hasznos, amikor szükség van tizedespontos számokra.</p>
+
             <li>double</li>
+            <li>A 'double' típusú változó általában tizedespontos lebegőpontos számokat reprezentál C#-ban.</li>
+            <p>példa a double típusú változóra:</p>
+            <p>double 1 = 3.14159;</p>
+            <p>double 2 = 50000.50;</p>
+            <p>double 3 = 123456789.987654321;</p>
+
             <li>char</li>
+            <li></li>A char típus különböző módon hasznos lehet, például szövegkezelés során, karakterek összehasonlítására vagy éppen karakterláncok összeállításakor.</li>
+            <p>Példa a char típusú változóra: </p>
+            <p>char grade = 'A';</p>
+            <p>char digit = '5';</p>
+            <p>char specialChar = '@';</p>
+
             <li>string</li>
+            <li>A string típus hasznos szövegmanipulációs műveletek elvégzéséhez, például szöveg összefűzéséhez, kereséséhez, vágásához, helyettesítéséhez és még sok más művelethez.</li>
+            <p>Példa a string típusú változóra: </p>
+            <p>string nev = "John";</p>
+            <p>string udvozlet = "Hello, World!";</p>
+
             <li>bool</li>
+            <li>A bool típusú változó C#-ban igaz/hamis értékek tárolására szolgál. A bool (boolean) típus két értéket vehet fel: true (igaz) vagy false (hamis). A bool típust a System.Boolean osztály reprezentálja.</li>
+            <p>Példa a bool típusú változóra: </p>
+            <p>bool ehes = true;</p>
+            <p>bool szomjas = false;</p>
+            <p>A fenti példában az 'ehes' változó true értéket tárol, míg a 'szomjas' változó false értéket tárol.</p>          
+
         </ul>
       </section>
 
@@ -65,9 +91,9 @@
         </p>
 
         <ul>
-          <li><code>if</code> utasítás: <code>if (x > 0) { Console.WriteLine("x pozitív."); }</code></li>
-
-          <li><code>switch</code> utasítás: <code>switch (x) { case 1: Console.WriteLine("x egy."); break; }</code></li>
+          <li><code>if utasítás: if (x > 0) { Console.WriteLine("x pozitív."); }</code></li>
+          <br>
+          <li><code>switch utasítás: switch (x) { case 1: Console.WriteLine("x egy."); break; }</code></li>
         </ul>
       </section>
 
@@ -80,9 +106,9 @@
         </p>
 
         <ul>
-          <li><code>for</code> ciklus: <code>for (int i = 0; i < 10; i++) { Console.WriteLine(i); }</code></li>
+          <li><code>for ciklus: for (int i = 0; i < 10; i++) { Console.WriteLine(i); }</code></li>
 
-          <li><code>while</code> ciklus: <code>int i = 0; while (i < 10) { Console.WriteLine(i); i++; }</code></li>
+          <li><code>while ciklus: int i = 0; while (i < 10) { Console.WriteLine(i); i++; }</code></li>
         </ul>
       </section>
 
